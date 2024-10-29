@@ -7,7 +7,11 @@ const HeroSection = () => {
       <div className="container px-4">
         <div className="text-center">
           <div className="relative w-32 h-32 mx-auto mb-8">
-            <div className="absolute inset-0 bg-yellow-300 rounded-full animate-spin opacity-50"></div>
+            <img 
+              src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&w=128&h=128" 
+              alt="MemeCoin Logo" 
+              className="absolute inset-0 rounded-full animate-spin opacity-50"
+            />
             <div className="relative bg-primary rounded-full p-6 animate-float">
               <CandyCane className="w-full h-full text-black" />
             </div>
