@@ -1,4 +1,4 @@
-import { Github, Twitter, Discord } from "lucide-react";
+import { Github, Twitter, MessageCircle } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -16,7 +16,7 @@ const Footer = () => {
               <Twitter className="w-6 h-6" />
             </a>
             <a href="#" className="hover:text-primary transition-colors">
-              <Discord className="w-6 h-6" />
+              <MessageCircle className="w-6 h-6" />
             </a>
             <a href="#" className="hover:text-primary transition-colors">
               <Github className="w-6 h-6" />
